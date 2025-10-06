@@ -1,7 +1,6 @@
 {
-  "pack": {
-    "description": "A data pack for TNW that adds volcanic features.",
-    "pack_format": 61,
-    "supported_formats": [61,71]
-  }
+	"pack": {
+		"pack_format": 61,
+		"description": "A data pack for TNW that adds volcanic features."
+	}
 }

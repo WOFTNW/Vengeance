@@ -1,0 +1,7 @@
+{
+	"values": [
+		"animated_java:battlewinner_cannon/root/on_load",
+		"animated_java:battlewinner_cannon_ball/root/on_load",
+		"animated_java:battlewinner_cannon_base/root/on_load"
+	]
+}

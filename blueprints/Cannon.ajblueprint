@@ -1,0 +1,594 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.7.3",
+		"uuid": "5a833117-c4f4-01ec-3a60-12080a4f6697",
+		"save_location": "/home/bog/Documents/Minecraft/Data Packs/Vengeance/blueprints/Cannon.ajblueprint",
+		"last_used_export_namespace": "battlewinner_cannon"
+	},
+	"blueprint_settings": {
+		"export_namespace": "battlewinner_cannon",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_versions": ["1.21.4"],
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "/home/bog/Documents/Minecraft/Resource Packs/Dragonspeak (Vengeance)",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "/home/bog/Documents/Minecraft/Data Packs/Vengeance",
+		"summon_commands": "",
+		"remove_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": true,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "middle",
+			"position": [-8, 16, -16],
+			"rotation": [0, 0, 0],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"block": "minecraft:polished_andesite",
+			"config": {},
+			"item": "minecraft:diamond",
+			"itemDisplay": "none",
+			"text": "\"Hello World!\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0.25,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "61b7ca53-fd1d-9b43-9b01-dea1f2887a29",
+			"type": "animated_java:vanilla_block_display"
+		},
+		{
+			"name": "blast",
+			"position": [-12, 12, 0],
+			"rotation": [0, 0, 0],
+			"scale": [1.5, 1.5, 1.5],
+			"visibility": true,
+			"block": "minecraft:blast_furnace",
+			"config": {},
+			"item": "minecraft:diamond",
+			"itemDisplay": "none",
+			"text": "\"Hello World!\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0.25,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "057a20bb-440c-1098-e93b-e73efc916714",
+			"type": "animated_java:vanilla_block_display"
+		},
+		{
+			"name": "end",
+			"position": [-12, 12, -23],
+			"rotation": [0, 0, 0],
+			"scale": [1.5, 1.5, 0.6875],
+			"visibility": true,
+			"block": "minecraft:polished_andesite",
+			"config": {},
+			"item": "minecraft:diamond",
+			"itemDisplay": "none",
+			"text": "\"Hello World!\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0.25,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "399cab7c-68f8-5ead-638b-eb753bb6521b",
+			"type": "animated_java:vanilla_block_display"
+		},
+		{
+			"name": "smoker",
+			"position": [8, 32, -12],
+			"rotation": [90, 0, 180],
+			"scale": [1, 1, 1],
+			"visibility": true,
+			"block": "minecraft:smoker",
+			"config": {},
+			"item": "minecraft:diamond",
+			"itemDisplay": "none",
+			"text": "\"Hello World!\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0.25,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "5f5eeadb-e075-17e1-7704-96f4e26db9d9",
+			"type": "animated_java:vanilla_block_display"
+		},
+		{
+			"name": "rotate_part2",
+			"position": [-8, 4, -8],
+			"rotation": [0, 0, 0],
+			"scale": [1, 0.75, 1],
+			"visibility": true,
+			"block": "minecraft:anvil",
+			"config": {},
+			"item": "minecraft:diamond",
+			"itemDisplay": "none",
+			"text": "\"Hello World!\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0.25,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "2fa7bfb8-9f41-fe02-970c-3616a2f4af7f",
+			"type": "animated_java:vanilla_block_display"
+		}
+	],
+	"outliner": [
+		{
+			"name": "shooter",
+			"origin": [8, 32, -12],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "e9bf0357-9b4d-97f0-f9c6-260063aba273",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"057a20bb-440c-1098-e93b-e73efc916714",
+				"61b7ca53-fd1d-9b43-9b01-dea1f2887a29",
+				"399cab7c-68f8-5ead-638b-eb753bb6521b",
+				"5f5eeadb-e075-17e1-7704-96f4e26db9d9"
+			]
+		},
+		"2fa7bfb8-9f41-fe02-970c-3616a2f4af7f"
+	],
+	"textures": [],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "07c5794b-d6fb-ae41-56e8-305c8f35372a",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "84958085-ed96-75d2-b3d3-8bf21321da95",
+			"name": "animation.cannon.fire",
+			"loop": "once",
+			"override": false,
+			"length": 1,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "/home/bog/Documents/Minecraft/Data Packs/Vengeance/blueprints/model.animation.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"61b7ca53-fd1d-9b43-9b01-dea1f2887a29": {
+					"name": "middle",
+					"type": "animated_java:vanilla_block_display",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "72cb3491-21ed-17af-13da-1a581a8110ca",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"057a20bb-440c-1098-e93b-e73efc916714": {
+					"name": "blast",
+					"type": "animated_java:vanilla_block_display",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "7fe859ee-dc2a-424f-35f5-94e2e92d2382",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "43ef22f8-483e-5d4d-40e5-8889df1e16e9",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"399cab7c-68f8-5ead-638b-eb753bb6521b": {
+					"name": "end",
+					"type": "animated_java:vanilla_block_display",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "3c10c9f7-fa7a-ced3-1a94-7945fc7e256c",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "5",
+									"y": "-4",
+									"z": "0"
+								}
+							],
+							"uuid": "c6414fea-83d4-58ee-9cea-92ff04d5fea3",
+							"time": 0.1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "ad507b63-ed4a-22bc-6d91-f07e03ac5e44",
+							"time": 0.25,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1.4",
+									"y": "1.4",
+									"z": "1"
+								}
+							],
+							"uuid": "cd320a3f-d282-3d18-b733-522bdf474734",
+							"time": 0.1,
+							"color": -1,
+							"uniform": false,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "15cb56ce-71b6-0f18-3018-58c3280c0c45",
+							"time": 0,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "1e86cb84-55c4-3451-5b94-a832a7cb4a6e",
+							"time": 0.25,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"5f5eeadb-e075-17e1-7704-96f4e26db9d9": {
+					"name": "smoker",
+					"type": "animated_java:vanilla_block_display",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "e59df874-c34f-1beb-e14f-f430493b8260",
+							"time": 0.05,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "-4",
+									"y": "4",
+									"z": "-4"
+								}
+							],
+							"uuid": "6d234f79-2588-9264-2180-784e69e97fa6",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "134d5685-51fe-0ee0-10c9-c037208c2ba2",
+							"time": 0.3,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1.4",
+									"y": "1.4",
+									"z": "1.4"
+								}
+							],
+							"uuid": "1f09afac-7e70-d37b-e941-012ada145669",
+							"time": 0.15,
+							"color": -1,
+							"uniform": false,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "b6c1ea49-ad4e-f2ee-2756-9cca5f3061b1",
+							"time": 0.05,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "600058a2-c784-1e6d-e693-3aa1ab41cb74",
+							"time": 0.3,
+							"color": -1,
+							"uniform": true,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				},
+				"e9bf0357-9b4d-97f0-f9c6-260063aba273": {
+					"name": "shooter",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "-2.5",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "c4b7d5e0-fcde-ed77-dbbd-d3c138abaf69",
+							"time": 0.2,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "75af73e9-0b69-28fe-f4d4-aeb5a7ac4645",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "69d5a262-1683-3ffb-b33d-447462765b43",
+							"time": 0.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "1",
+									"z": "9"
+								}
+							],
+							"uuid": "6c8db66d-b30f-0f16-d8dd-313cfeeefdda",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutCirc",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "16f48817-601e-7493-4df0-3e7a42d530f7",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "76d90b8e-f4a6-99ab-c21c-e668f7369cb7",
+							"time": 1,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeOutSine",
+							"easingArgs": []
+						}
+					]
+				},
+				"effects": {
+					"name": "Effects",
+					"type": "effect",
+					"keyframes": [
+						{
+							"channel": "commands",
+							"data_points": [
+								{
+									"commands": "execute at @n[tag=aj.battlewinner_cannon.node.smoker] run particle poof ~ ~1 ~ 0 0 0 1 64\nexecute at @n[tag=aj.battlewinner_cannon.node.smoker] run particle smoke ~ ~1 ~ 0 0 0 1 64\nexecute at @n[tag=aj.battlewinner_cannon.node.smoker] run particle lava ~ ~1 ~ 0 0 0 1 64",
+									"execute_condition": "",
+									"repeat": false,
+									"repeat_frequency": 1
+								}
+							],
+							"uuid": "00a0dc51-0229-a5e6-5265-1bdd7a469c37",
+							"time": 0.15,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

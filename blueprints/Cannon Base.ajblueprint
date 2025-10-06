@@ -1,0 +1,154 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.7.3",
+		"uuid": "97d58cad-1214-9260-95b2-6f8035b8371e",
+		"save_location": "/home/bog/Documents/Minecraft/Data Packs/Vengeance/blueprints/Cannon Base.ajblueprint",
+		"last_used_export_namespace": "battlewinner_cannon_base"
+	},
+	"blueprint_settings": {
+		"export_namespace": "battlewinner_cannon_base",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_versions": ["1.21.4"],
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "/home/bog/Documents/Minecraft/Resource Packs/Dragonspeak (Vengeance)",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "/home/bog/Documents/Minecraft/Data Packs/Vengeance",
+		"summon_commands": "",
+		"remove_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": true,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "rotate_part",
+			"position": [-8, 4, -8],
+			"rotation": [0, 0, 0],
+			"scale": [1, 0.5, 1],
+			"visibility": true,
+			"block": "minecraft:pale_oak_slab",
+			"config": {},
+			"item": "minecraft:diamond",
+			"itemDisplay": "none",
+			"text": "\"Hello World!\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0.25,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "b8b13eda-2bf6-084a-a388-01d448f63c08",
+			"type": "animated_java:vanilla_block_display"
+		},
+		{
+			"name": "base",
+			"position": [-16, 0, -16],
+			"rotation": [0, 0, 0],
+			"scale": [2, 0.5, 1.9375],
+			"visibility": true,
+			"block": "minecraft:polished_blackstone_slab",
+			"config": {},
+			"item": "minecraft:diamond",
+			"itemDisplay": "none",
+			"text": "\"Hello World!\"",
+			"lineWidth": 200,
+			"backgroundColor": "#000000",
+			"backgroundAlpha": 0.25,
+			"align": "center",
+			"shadow": false,
+			"seeThrough": false,
+			"uuid": "48d46d6b-44ab-81ac-2cbd-8d93473aa462",
+			"type": "animated_java:vanilla_block_display"
+		}
+	],
+	"outliner": ["b8b13eda-2bf6-084a-a388-01d448f63c08", "48d46d6b-44ab-81ac-2cbd-8d93473aa462"],
+	"textures": [],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "234174b7-4c8d-63d3-9b46-501b1d63f56f",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "204c2039-d1d6-417c-843b-d1b4a03ad907",
+			"name": "animation.cannon_base.default",
+			"loop": "once",
+			"override": false,
+			"length": 0.05,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "/home/bog/Documents/Minecraft/Data Packs/Vengeance/blueprints/cannon_base.default.animation.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"48d46d6b-44ab-81ac-2cbd-8d93473aa462": {
+					"name": "base",
+					"type": "animated_java:vanilla_block_display",
+					"keyframes": [
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "9b9fbdf5-73d1-4ad6-b0e6-c87aa20fdf32",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "scale",
+							"data_points": [
+								{
+									"x": "1",
+									"y": "1",
+									"z": "1"
+								}
+							],
+							"uuid": "bdcf3d6a-435c-78dd-f752-db53a6e68ecb",
+							"time": 0,
+							"color": -1,
+							"uniform": false,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}
